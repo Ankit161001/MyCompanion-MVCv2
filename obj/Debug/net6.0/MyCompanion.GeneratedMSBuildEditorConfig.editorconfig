@@ -1,0 +1,100 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MyCompanion
+build_property.RootNamespace = MyCompanion
+build_property.ProjectDir = E:\College_documents\SEM#8\MyCompanion_MVC_AzureDevOps\MajorProject\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\College_documents\SEM#8\MyCompanion_MVC_AzureDevOps\MajorProject
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/College_documents/SEM\#8/MyCompanion_MVC_AzureDevOps/MajorProject/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/College_documents/SEM\#8/MyCompanion_MVC_AzureDevOps/MajorProject/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/College_documents/SEM\#8/MyCompanion_MVC_AzureDevOps/MajorProject/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/College_documents/SEM\#8/MyCompanion_MVC_AzureDevOps/MajorProject/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/College_documents/SEM\#8/MyCompanion_MVC_AzureDevOps/MajorProject/Views/Users/Acceptedjob.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQWNjZXB0ZWRqb2IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/College_documents/SEM\#8/MyCompanion_MVC_AzureDevOps/MajorProject/Views/Users/Acceptjob.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQWNjZXB0am9iLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/College_documents/SEM\#8/MyCompanion_MVC_AzureDevOps/MajorProject/Views/Users/Choice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ2hvaWNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/College_documents/SEM\#8/MyCompanion_MVC_AzureDevOps/MajorProject/Views/Users/Completedjob.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ29tcGxldGVkam9iLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/College_documents/SEM\#8/MyCompanion_MVC_AzureDevOps/MajorProject/Views/Users/Completejob.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ29tcGxldGVqb2IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/College_documents/SEM\#8/MyCompanion_MVC_AzureDevOps/MajorProject/Views/Users/Completejobac.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ29tcGxldGVqb2JhYy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/College_documents/SEM\#8/MyCompanion_MVC_AzureDevOps/MajorProject/Views/Users/Editjob.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdGpvYi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/College_documents/SEM\#8/MyCompanion_MVC_AzureDevOps/MajorProject/Views/Users/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/College_documents/SEM\#8/MyCompanion_MVC_AzureDevOps/MajorProject/Views/Users/Postedjob.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcUG9zdGVkam9iLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/College_documents/SEM\#8/MyCompanion_MVC_AzureDevOps/MajorProject/Views/Users/Postjob.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcUG9zdGpvYi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/College_documents/SEM\#8/MyCompanion_MVC_AzureDevOps/MajorProject/Views/Users/Searchjob.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcU2VhcmNoam9iLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/College_documents/SEM\#8/MyCompanion_MVC_AzureDevOps/MajorProject/Views/Users/Searchresults.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcU2VhcmNocmVzdWx0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/College_documents/SEM\#8/MyCompanion_MVC_AzureDevOps/MajorProject/Views/Users/Signin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcU2lnbmluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/College_documents/SEM\#8/MyCompanion_MVC_AzureDevOps/MajorProject/Views/Users/Wrongotp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcV3JvbmdvdHAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/College_documents/SEM\#8/MyCompanion_MVC_AzureDevOps/MajorProject/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/College_documents/SEM\#8/MyCompanion_MVC_AzureDevOps/MajorProject/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/College_documents/SEM\#8/MyCompanion_MVC_AzureDevOps/MajorProject/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-9rngyarvve

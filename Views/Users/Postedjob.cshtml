@@ -1,0 +1,29 @@
+﻿@model MyCompanion.Models.ViewPostedJobsModel
+
+@{
+}
+
+<h1>Posted Jobs</h1>
+
+<h3>@Model.User.Name</h3>
+
+Jobs Posted by you are:
+
+@foreach (var item in Model.PostedJobs)
+{   
+    <div class="card">
+        <div class="card-header">
+            Posted by @item.Pname
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Work as @item.Jobrole</h5>
+            <p class="card-text"><b>Description:</b>@item.Description</p>
+            <p class="card-text"><b>Status:</b>@item.Status</p>
+            <p class="card-text"><b>Status:</b>@item.Potp</p>
+            @if (@item.Status != "Completed") {
+                <a href="Editjob?id=@item.JobId" class="btn btn-primary">Edit or Delete</a>
+                <a href="Completejob?id=@item.JobId" class="btn btn-primary">Complete Job</a>
+            }
+        </div>
+    </div>
+}

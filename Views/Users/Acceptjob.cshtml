@@ -1,0 +1,81 @@
+﻿@model MyCompanion.Models.ViewUserJobDetailsView
+
+@{
+}
+
+<h3>Job Details</h3>
+<h4>To be accepted by @Model.User.Name</h4>
+
+<div class="card">
+  <div class="card-header">
+    Posted by @Model.Job.Pname
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">@Model.Job.Jobrole</h5>
+    <p class="card-text">@Model.Job.Description</p>
+    <form method="post" action="Acceptjob">
+
+       <div class="mb-3" style="display:none">
+        <label for="" class="form-label">Name</label>
+        <input type="text" class="form-control" asp-for="User.UserId">
+      </div>
+      <div class="mb-3" style="display:none">
+        <label for="" class="form-label">Name</label>
+        <input type="text" class="form-control" asp-for="User.Name">
+      </div>
+      <div class="mb-3" style="display:none">
+        <label for="" class="form-label">Email</label>
+        <input type="email" class="form-control" asp-for="User.Email">
+      </div>
+      <div class="mb-3" style="display:none">
+        <label for="" class="form-label">Username</label>
+        <input type="text" class="form-control" asp-for="User.Username">
+      </div>
+      <div class="mb-3" style="display:none">
+        <label for="" class="form-label">Password</label>
+        <input type="text" class="form-control" asp-for="User.Password">
+      </div>
+      <div class="mb-3" style="display:none">
+        <label for="" class="form-label">Phone</label>
+        <input type="text" class="form-control" asp-for="User.Phone">
+      </div>
+      <div class="mb-3" style="display:none">
+        <label for="" class="form-label">Aadhar</label>
+        <input type="text" class="form-control" asp-for="User.Aadhar">
+      </div>
+      <div class="mb-3" style="display:none">
+        <label for="" class="form-label">City</label>
+        <input type="text" class="form-control" asp-for="User.City">
+      </div>
+      <div class="mb-3" style="display:none">
+        <label for="" class="form-label">PIN</label>
+        <input type="text" class="form-control" asp-for="User.Pin">
+      </div>
+      <div style="display:none">
+          <input type="text" class="form-control" asp-for="Job.JobId">
+          <input type="text" class="form-control" asp-for="Job.Jobrole">
+          <input type="text" class="form-control" asp-for="Job.Description">
+          <input type="number" class="form-control" asp-for="Job.Duration">
+          <input type="number" class="form-control" asp-for="Job.Price">
+          <input type="date" class="form-control" asp-for="Job.Date">
+          <input type="text" class="form-control" asp-for="Job.Status">
+          <input type="text" class="form-control" asp-for="Job.Posterid">
+          <input type="text" class="form-control" asp-for="Job.Pname">
+          <input type="text" class="form-control" asp-for="Job.Pemail">
+          <input type="text" class="form-control" asp-for="Job.Pphone">
+          <input type="text" class="form-control" asp-for="Job.Pcity">
+          <input type="text" class="form-control" asp-for="Job.Ppin">
+          <input type="text" class="form-control" asp-for="Job.Accepterid">
+          <input type="text" class="form-control" asp-for="Job.Aname">
+          <input type="text" class="form-control" asp-for="Job.Aemail">
+          <input type="text" class="form-control" asp-for="Job.Aphone">
+          <input type="text" class="form-control" asp-for="Job.Acity">
+          <input type="text" class="form-control" asp-for="Job.Apin">
+          <input type="text" class="form-control" asp-for="Job.Potp">
+          <input type="text" class="form-control" asp-for="Job.Aotp">
+      </div>
+
+        <button type="submit" class="btn btn-primary">Accept</button>
+    </form>
+  </div>
+</div>

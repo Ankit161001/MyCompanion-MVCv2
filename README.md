@@ -1,2 +1,2 @@
-# MyCompanion-MVCv2
-Our Major Project Code
+# MyCompanion-MVC
+Our Final Project Code.

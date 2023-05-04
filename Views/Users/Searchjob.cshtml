@@ -1,0 +1,54 @@
+﻿@model MyCompanion.Models.ViewSearchTermUserModel
+
+@{
+}
+
+<h2>Search a Job</h2>
+<h3>@Model.User.Name</h3>
+
+<a href="Acceptedjob?id=@Model.User.UserId">See Previously Accepted Jobs</a>
+
+<form method="post" action="Searchjob" class="mt-5">
+  <div class="mb-3">
+    <label for="" class="form-label">Enter the Search Term</label>
+    <input type="text" class="form-control" asp-for="Searchterm">
+  </div>
+
+  <div class="mb-3" style="display:none">
+    <label for="" class="form-label">Name</label>
+    <input type="text" class="form-control" asp-for="User.UserId">
+  </div>
+  <div class="mb-3" style="display:none">
+    <label for="" class="form-label">Name</label>
+    <input type="text" class="form-control" asp-for="User.Name">
+  </div>
+  <div class="mb-3" style="display:none">
+    <label for="" class="form-label">Email</label>
+    <input type="email" class="form-control" asp-for="User.Email">
+  </div>
+  <div class="mb-3" style="display:none">
+    <label for="" class="form-label">Username</label>
+    <input type="text" class="form-control" asp-for="User.Username">
+  </div>
+  <div class="mb-3" style="display:none">
+    <label for="" class="form-label">Password</label>
+    <input type="text" class="form-control" asp-for="User.Password">
+  </div>
+  <div class="mb-3" style="display:none">
+    <label for="" class="form-label">Phone</label>
+    <input type="text" class="form-control" asp-for="User.Phone">
+  </div>
+  <div class="mb-3" style="display:none">
+    <label for="" class="form-label">Aadhar</label>
+    <input type="text" class="form-control" asp-for="User.Aadhar">
+  </div>
+  <div class="mb-3" style="display:none">
+    <label for="" class="form-label">City</label>
+    <input type="text" class="form-control" asp-for="User.City">
+  </div>
+  <div class="mb-3" style="display:none">
+    <label for="" class="form-label">PIN</label>
+    <input type="text" class="form-control" asp-for="User.Pin">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>

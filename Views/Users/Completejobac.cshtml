@@ -1,0 +1,39 @@
+﻿@model MyCompanion.Models.Domain.Job
+
+@{
+}
+
+<h3>OTP Verification</h3>
+
+<form method="post" action="Completejobac">
+
+       <div class="mb-3">
+        <label for="" class="form-label">Enter OTP</label>
+        <input type="number" class="form-control" asp-for="@Model.Aotp">
+      </div>
+      
+      <div style="display:none">
+          <input type="text" class="form-control" asp-for="@Model.JobId">
+          <input type="text" class="form-control" asp-for="@Model.Jobrole">
+          <input type="text" class="form-control" asp-for="@Model.Description">
+          <input type="number" class="form-control" asp-for="@Model.Duration">
+          <input type="number" class="form-control" asp-for="@Model.Price">
+          <input type="date" class="form-control" asp-for="@Model.Date">
+          <input type="text" class="form-control" asp-for="@Model.Status">
+          <input type="text" class="form-control" asp-for="@Model.Posterid">
+          <input type="text" class="form-control" asp-for="@Model.Pname">
+          <input type="text" class="form-control" asp-for="@Model.Pemail">
+          <input type="text" class="form-control" asp-for="@Model.Pphone">
+          <input type="text" class="form-control" asp-for="@Model.Pcity">
+          <input type="text" class="form-control" asp-for="@Model.Ppin">
+          <input type="text" class="form-control" asp-for="@Model.Accepterid">
+          <input type="text" class="form-control" asp-for="@Model.Aname">
+          <input type="text" class="form-control" asp-for="@Model.Aemail">
+          <input type="text" class="form-control" asp-for="@Model.Aphone">
+          <input type="text" class="form-control" asp-for="@Model.Acity">
+          <input type="text" class="form-control" asp-for="@Model.Apin">
+          <input type="number" class="form-control" asp-for="@Model.Potp">
+      </div>
+
+        <button type="submit" class="btn btn-primary">Verify</button>
+    </form>

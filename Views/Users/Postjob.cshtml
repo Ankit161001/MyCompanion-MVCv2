@@ -1,0 +1,70 @@
+﻿@model MyCompanion.Models.ViewUserJobViewModel
+
+@{
+}
+
+<h2>Post a Job</h2>
+<h3>@Model.Name</h3>
+
+<a href="Postedjob?id=@Model.UserId">See Previously Posted Jobs</a>
+
+<form method="post" action="Postjob" class="mt-5">
+  <div class="mb-3">
+    <label for="" class="form-label">Job Role</label>
+    <input type="text" class="form-control" asp-for="Jobrole">
+  </div>
+  <div class="mb-3">
+    <label for="" class="form-label">Description</label>
+    <input type="text" class="form-control" asp-for="Description">
+  </div>
+  <div class="mb-3">
+    <label for="" class="form-label">Duration</label>
+    <input type="number" class="form-control" asp-for="Duration">
+  </div>
+  <div class="mb-3">
+    <label for="" class="form-label">Price</label>
+    <input type="number" class="form-control" asp-for="Price">
+  </div>
+  <div class="mb-3">
+    <label for="" class="form-label">Date</label>
+    <input type="date" class="form-control" asp-for="Date">
+  </div>
+  <div class="mb-3">
+    <label for="" class="form-label">Status</label>
+    <input type="text" class="form-control" asp-for="Status" readonly>
+  </div>
+  <div class="mb-3">
+    <label for="" class="form-label">Poster ID</label>
+    <input type="text" class="form-control" asp-for="Posterid" readonly>
+  </div>
+  <div class="mb-3">
+    <label for="" class="form-label">Poster Name</label>
+    <input type="text" class="form-control" asp-for="Pname" readonly>
+  </div>
+  <div class="mb-3">
+    <label for="" class="form-label">Poster Email</label>
+    <input type="text" class="form-control" asp-for="Pemail" readonly>
+  </div>
+  <div class="mb-3">
+    <label for="" class="form-label">Poster Phone</label>
+    <input type="number" class="form-control" asp-for="Pphone" readonly>
+  </div>
+  <div class="mb-3">
+    <label for="" class="form-label">Poster City</label>
+    <input type="text" class="form-control" asp-for="Pcity" readonly>
+  </div>
+  <div class="mb-3">
+    <label for="" class="form-label">Poster PIN</label>
+    <input type="number" class="form-control" asp-for="Ppin" readonly>
+  </div>
+  <div class="mb-3">
+    <label for="" class="form-label">Poster PIN</label>
+    <input type="number" class="form-control" asp-for="Potp" readonly>
+  </div>
+  <div class="mb-3">
+    <label for="" class="form-label">Poster PIN</label>
+    <input type="number" class="form-control" asp-for="Aotp" readonly>
+  </div>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>

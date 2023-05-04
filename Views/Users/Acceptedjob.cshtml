@@ -1,0 +1,24 @@
+﻿@model MyCompanion.Models.JobListModel
+
+@{
+}
+
+<h2>List of Jobs accepted by @Model.Jobs[0].Aname</h2>
+
+@foreach (var item in @Model.Jobs)
+{
+    <div class="card">
+        <div class="card-header">
+            Posted by @item.Pname
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Work as @item.Jobrole</h5>
+            <p class="card-text"><b>Description:</b>@item.Description</p>
+            <p class="card-text"><b>Status:</b>@item.Status</p>
+            @if (@item.Status != "Completed")
+            {
+                <a href="Completejobac?id=@item.JobId" class="btn btn-primary">Complete Job</a>
+            }
+        </div>
+    </div>
+}
